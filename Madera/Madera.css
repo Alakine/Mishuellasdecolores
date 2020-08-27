@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'TheSalvador' ;
+    src: url(TheSalvador.otf);
+}
+
+body{
+    font-family: "TheSalvador";
+    font-size: 1.5em;
+    margin: 0;
+    color: #886a42;
+    background-color: #f8f0e6;
+}
+
+.presentacion1{
+    font-size: 1.5em;
+}
+
+.Madera{
+    font-size: 4.688rem;
+    color: #b9996f;
+}
+
+.cajas{
+    border:solid #886a42 0.6rem;
+    border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -moz-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -webkit-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    animation-delay: 0.5s;
+    max-width: 50%;
+    padding-top: 4.063rem;
+    padding-bottom: 1.875rem;
+    padding-right: 4.063rem;
+    padding-left: 4.063rem;
+    border-left-style: none;
+    margin: 0;
+    float: left;
+}
+
+.fotocaja{
+    float: right;
+    padding-left: 1rem;
+}
+
+.llaveros{
+    border:solid #886a42 0.6rem;
+    border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -moz-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -webkit-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    animation-delay: 1s;
+    max-width: 50%;
+    padding-left: 3rem;
+    border-right-style: none;
+    margin-top: 1.5rem;
+    float: right;
+    padding-top: 4.063rem;
+    padding-bottom: 1.875rem;
+    padding-right: 4.063rem;
+    padding-left: 4.063rem;
+}
+
+.fotollaveros{
+    float: left;
+    padding-right: 1rem;
+}
+
+.nombres{
+    border:solid #886a42 0.6rem;
+    border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -moz-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -webkit-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    animation-delay: 1.5s;
+    padding-top: 4.063rem;
+    padding-bottom: 1.875rem;
+    padding-right: 4.063rem;
+    padding-left: 4.063rem;
+    margin-bottom: 0.625rem;
+    margin-top: 2.5rem;
+    float: left;
+}
+
+.fotonombres{
+    padding-right: 1rem;
+}
+
+a{
+    color: #886a42;
+}
