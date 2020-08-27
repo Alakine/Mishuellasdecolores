@@ -1,0 +1,194 @@
+/* Introduccion de las fuentes personalizadas*/
+
+@font-face{
+    font-family: 'TheSalvador' ;
+    src: url(TheSalvador.otf);
+}
+    
+@font-face{
+    font-family: 'adis' ;
+    src: url(ADayinSeptember.otf);
+}
+    
+@font-face{  
+    font-family: 'alg' ;
+    src: url(aAlleyGarden.ttf);
+}
+
+/* Estilizacion de el titulo junto con la descripcion*/
+
+body{
+    padding: 0rem;
+    margin: 0rem;    
+    background-color: #f8f0e6;
+    color: black;
+    font-size: large;
+    font-family: "TheSalvador";
+}
+
+.titulo{
+    padding-top: 1rem;
+    color: #b9996f;
+    font-size: 10rem;
+    font-family: "adis";
+    margin: 0.1rem;
+}
+
+.presentacion{
+    font-size: 1.5rem;
+    color: #886a42;
+    border:solid #886a42 0.6rem;
+    text-align: center;
+    border-radius: 0 0 1.3rem 1.3rem;
+    -moz-border-radius: 0 0 1.3rem 1.3rem;
+    -webkit-border-radius: 0 0 1.3rem 1.3rem;
+}
+    
+/* Estilizacion de las formas de contacto*/
+
+.contacto{
+    font-size: 2rem;
+    font-family: "alg";
+    color: black;   
+}
+    
+.telefono{
+    color: green
+}
+    
+.email{
+    color: blue;
+}
+
+.instagram{
+    position: relative;
+    right: 9.375rem;
+}
+
+.facebook{
+    position: relative;
+    right: 3.125rem;
+}
+
+.youtube{
+    position: relative;
+    left: 3.125rem;
+}
+
+.whatsapp{
+    position: relative;
+    left: 9.375rem;
+}
+
+.sobre{
+    border:solid rgb(9, 190, 24) 0.625rem;
+    border-radius: 6.25rem 0 6.25rem 0;
+    position: absolute;
+    margin-top: 7.5rem;
+    margin-left: 3.125rem;
+    padding: 1rem;
+    background-color:rgb(9, 190, 24);
+    color: black;
+}
+
+/* Estilizacion de las formas de los hiperenlaces junto con las imagenes*/
+
+.MisTrabajos{
+    color: #4a4949;
+    padding-bottom: 2%;
+    font-size: 200%;
+}
+
+.trabajos{
+    animation-delay: 0.5s;
+    padding-top: 1%;
+    margin-top: 1%;
+    border:solid #886a42 0.6rem;
+    text-align: center;
+    border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -moz-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+    -webkit-border-radius: 1.188rem 1.188rem 1.188rem 1.188rem;
+}
+
+.sublimaciondiv{
+    padding-bottom: 1%;
+    justify-content: start;
+    display: inline-block;
+}
+
+.maderadiv{
+    justify-content: start;
+    display: inline-block;
+}
+
+.chapasdiv{
+    display: inline-block;
+}
+
+.acidodiv{
+    display: inline-block;
+}
+
+.vinilosdiv{
+    display: inline-block;
+}
+
+.bellypaintingdiv{
+    display: inline-block;
+}
+
+.scrapdiv{
+    display: inline-block;
+}
+
+.dioramasdiv{
+    display: inline-block;
+}
+
+.atrapasuenosdiv{
+    display: inline-block;
+}
+
+.eventosdiv{
+    display: inline-block;
+}
+
+.retoquediv{
+    color: #4a4949;
+    display: inline-block;
+}
+
+.ilustracionesdiv{
+    display: inline-block;
+}
+
+.metacrilatodiv{
+    display: inline-block;
+    display: none;
+}
+
+.epoxidiv{
+    display: inline-block;
+    display: none;
+}
+
+.reciclajediv{
+    display: inline-block;
+}
+
+.mascosasdiv{
+    display: inline-block;
+}
+
+/* Estilizacion de la marca registrada */
+
+footer{
+    padding: 0.6;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div a{
+    color: #4a4949;
+}
+
